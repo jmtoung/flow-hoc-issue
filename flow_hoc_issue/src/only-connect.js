@@ -16,13 +16,4 @@ const mapStateToProps = (state) => ({
   state,
 });
 
-const logout = () => ({
-  type: "LOGOUT",
-  payload: undefined,
-});
-
-// const mapDispatchToProps = {
-//   logout: logout,
-// };
-
 export default connect(mapStateToProps, null)(ConnectHoc);
