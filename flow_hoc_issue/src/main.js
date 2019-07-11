@@ -36,13 +36,13 @@ class Example extends React.Component<{}> {
         27│           requiredProp="Hi"/>
         28│
         29│         // Component with `connect` then `withStyles`.
-        [1] 30│         <ConnectThenWithStyles/>
+    [1] 30│         <ConnectThenWithStyles/>
         31│
         32│         // Component with `withStyles` then `connect`
         33│         <WithStylesThenConnect/>
 
         ../flow-typed/npm/react-redux_v5.x.x.js
-        [2] 73│     CP: $Diff<OmitDispatch<ElementConfig<Com>>, RSP>,
+    [2] 73│     CP: $Diff<OmitDispatch<ElementConfig<Com>>, RSP>,
 */}
         <ConnectThenWithStyles/>
 
